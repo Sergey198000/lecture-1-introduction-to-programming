@@ -1,11 +1,11 @@
 ﻿Console.Clear();
 Console.WriteLine("Введите число: ");
-int n = int.Parse(Console.ReadLine()!);
+int n = Convert.ToInt32(Console.ReadLine()!);
+string nText = Convert.ToString(n);
 
-if (n >= 100 || n < 1000)
+if (nText.Length > 2)
 {
-    int a1 = n % 10;
-    Console.Write(a1);
+    Console.Write(nText[2]);
 }
 else
 {

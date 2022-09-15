@@ -6,11 +6,11 @@
 Console.Clear();
 Console.WriteLine("Введите координаты точки А(x, y, z)");
 Console.Write("x: ");
-int x1 = int.Parse(Console.ReadLine());
+int x1 = int.Parse(Console.ReadLine()!);
 Console.Write("y: ");
-int y1 = int.Parse(Console.ReadLine());
+int y1 = int.Parse(Console.ReadLine()!);
 Console.Write("z: ");
-int z1 = int.Parse(Console.ReadLine());
+int z1 = int.Parse(Console.ReadLine()!);
 Console.WriteLine("Введите координаты точки B(x, y, z)");
 Console.Write("x: ");
 int x2 = Convert.ToInt16(Console.ReadLine());
